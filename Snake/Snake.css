@@ -1,0 +1,28 @@
+body
+{text-align: center;
+background-color: #b3b3b3;
+}
+
+h1
+{color:white;
+font-family: "Press Start 2P";}
+
+a
+{
+color:white;
+vertical-align: middle;
+}
+
+div 
+{
+margin:auto;
+background-color: black;
+height: 40px;
+width: 250px;
+font-size: 2em;
+font-family: "Press Start 2P";
+}
+
+
+
+  
