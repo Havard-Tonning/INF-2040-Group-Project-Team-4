@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title> Tic Tac Toe </title>
+</head>
+
+<header>
+    <nav>
+        <ul>
+        <li><a href="../Home/index.html">Home</a></li>
+        <li><a href="../Home/about.html" >About us</a></li>  
+        <li><a href="../Snake/Snake.html">Snake</a></li>
+        <li><a href="../TicTacToe/tictactoe.html"  class="active">TicTacToe</a></li>    
+        <li><a href="../Trivia/trivia_game.html">Trivia</a></li>
+       </ul>
+    </nav>
+</header>
+
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div id="board-wrapper">
+        <div id="board">
+            <div class="row">
+                <div class="tile" onclick="makeMove(0, 0)"></div>
+                <div class="tile" onclick="makeMove(0, 1)"></div>
+                <div class="tile" onclick="makeMove(0, 2)"></div>
+            </div>
+            <div class="row">
+                <div class="tile" onclick="makeMove(1, 0)"></div>
+                <div class="tile" onclick="makeMove(1, 1)"></div>
+                <div class="tile" onclick="makeMove(1, 2)"></div>
+            </div>
+            <div class="row">
+                <div class="tile" onclick="makeMove(2, 0)"></div>
+                <div class="tile" onclick="makeMove(2, 1)"></div>
+                <div class="tile" onclick="makeMove(2, 2)"></div>
+            </div>
+        </div>
+        <br>
+        <div>
+            <button onclick="clearBoard()">Clear</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
